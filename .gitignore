@@ -8,3 +8,10 @@ node_modules
 node_modules/**
 dummy-closure
 dummy-closure/**
+/scss
+/bower.json
+/config.rb
+/Gruntfile.js
+/package.json
+/js/main.js
+/js/touche.js
