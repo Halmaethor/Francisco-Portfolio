@@ -4,11 +4,10 @@ var scrollTween = new TweenLite(window, 1, {scrollTo: 0, ease: Quart.easeInOut, 
 $('a.scroller').on('click', gotoSection);
 
 function gotoSection() {
-	var id = $(this).attr('href');
+	var id = $(this).attr('data-section');
 
 	scrollTween.pause().invalidate();
 	scrollTween.vars.scrollTo = $(id).offset().top;
-	console.log( scrollTween.vars );
 	scrollTween.restart();
 
 	return false;

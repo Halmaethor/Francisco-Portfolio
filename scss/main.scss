@@ -44,6 +44,15 @@ h1, p, .field-title {
 	overflow: hidden;
 }
 
+a {
+	cursor: pointer;
+}
+
+input[type=text], textarea {
+	border-radius: 0;
+	background-image: none;
+}
+
 section {
 	position: relative;
 
